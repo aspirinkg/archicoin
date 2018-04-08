@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.png" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/lib/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/lib/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./libs/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/lib/animate.min.css">
+    <link rel="stylesheet" href="./css/lib/timeTo.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+<body>
+    
+    <header  class="header">
+        <div class="container">
+                <div class="header-nav">
+                    <div class="row align-items-center">
+                    <div class="col- col-md-3 ">
+                        <div class="logo">
+                            <a href="#"><img src="./img/logo.png" alt="alt"></a>
+                        </div>
+                    </div>
+                    <!-- /.col col-md-3  -->
+
+                    <div class="col- col-md-9 d-flex justify-content-end ">
+                        <div class="nav-bar">
+                            <ul>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                            <a href="#" class="sign-in" ><i></i> <span>Sign in</span></a>
+                            <a href="#" class="lang" ><i  class="lang-icon-earth"></i> <span>Language</span> <i class="lang-icon-arrow"></i> </a>
+                            <button class="toggle_mnu">
+                                    <span class="sandwich">
+                                        <span class="sw-topper"></span>
+                                        <span class="sw-bottom"></span>
+                                        <span class="sw-footer"></span>
+                                    </span>
+                            </button>
+                            <nav class="nav_mnu">
+                                <div class="container d-flex">
+                                <button class="toggle_mnu  toggle_mnu--nav">
+                                        <span class="sandwich sandwich--nav">
+                                            <span class="sw-topper"></span>
+                                            <span class="sw-bottom"></span>
+                                            <span class="sw-footer"></span>
+                                        </span>
+                                </button>
+                                <ul class="nav_mnu_list">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Token Sale Stages</a> </li>
+                                    <li><a href="#">Competitors</a></li>
+                                    <li><a href="#">Advantages</a></li>
+                                    <li><a href="#">Roadmap</a></li>
+                                    <li><a href="#">Media</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- /.nav-bar -->
+                    </div>
+                    <!-- /.col col-md-9 d-flex justify-content-end -->
+                </div>
+                <!-- /.row -->
+                </div>
+                <!-- /.header-nav -->
+                <div class="main_header">
+                <div class="row">
+                        <div class="col- col-md-7">
+                            <div class="header-info">
+                            <h1>Distributed storage using the stable cryptography</h1>
+                            <p>Blockchain is not the future - it is the present!</p>
+                            <ul>
+                                <li><a href="#">Independence</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Anonymity</a></li>
+                            </ul>
+                            <div class="btn-link-cont">
+                            <a href="#" class="btn-link white-paper"><i class="fas fa-file-alt"></i>White paper</a>
+                            <a href="#" class="btn-link technical-paper"><i class="fas fa-file-alt"></i>Technical paper</a>
+                            <a href="#" class="btn-link github-link"><i class="fab fa-github"></i>GitHub</a>
+                            <a href="#" class="btn-link youtube-link"><i class="far fa-play-circle"></i>See video</a>
+                            </div>
+                            <div class="social-icon">
+                                <a href="#"><i class="fab fa-reddit-alien"></i></a>
+                                <a href="#"><i class="fab fa-medium-m"></i></a>
+                                <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-btc"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col- col-md-5 d-flex justify-content-end">
+                            <div class="timer_card">
+                                <div class="timer_card_header">
+                                    <h3>Pre-sale ends in:</h3>  
+                                    <div id="countdown"></div>
+                                </div>
+                                <div class="timer_card_footer">
+                                    <h3>Discount 50%</h3>
+                                    <a href="#">Buy tokens</a>
+                                    <h4>$ 200 000</h4>
+                                    <p>Total amount Raised</p>
+                                    <div class="download_band">
+                                        <div class="count_band"><span>$700</span></div>
+                                        <div class="band" data-count="30" data-lang="en">
+                                            <div class="band_line"></div>
+                                        </div>
+                                        <div class="band_info">
+                                            <p>Price for at pre-sale : $0.001</p>
+                                            <p>Harde cap</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- /.header_timer_card --> 
+                        </div>
+                        <!-- /.col --> 
+                    
+                </div>
+            </div>
+                    <!-- /.main_header -->
+        </div>
+    </header>
+    <section class="s_about">
+        <div class="container">
+        <div class="row">
+            <div class="col-"><h1>Whats is a Archicoin</h1></div>
+            <div class="col-"></div>
+        </div> 
+        <!-- /.row -->
+    </div>
+    </section>
+    <section class="s_token-sale" >
+            <div class="container">
+                <h4>Token sale stages</h4>
+                <div class="card-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-1">
+                            <div class="card_header">
+                                <h6>Private token pre-sale <span>Discount 75 %</span></h6>
+                            </div>
+                            <div class="info_block"><span class="cal-icon calendare-icon"></span> Start: <i class="braun-color"> 01.12.17 / 12:00 UTC</i></div>
+
+                            <div class="info_block"><span class="cal-icon coins-icon"></span>
+                                <p>
+                                Private pre-sale token: <i class="braun-color">ARCH</i> 
+                                Cost of token: <i class="braun-color">$0.0005</i></p>
+                            </div>
+                            <div class="info_block"><span class="cal-icon hand-icon"></span>
+                                <p>Number of tokens at private
+                                pre-sale: <i class="braun-color">400 000 000</i></p>  
+                            </div>
+                            <div class="info_block"><span class="cal-icon number-icon"></span><p>
+                                Min contribution: <i class="braun-color">30$</i> <br>
+                                Accepted pay-ts: <i class="braun-color">ETH,BTC,BCH</i></p>
+                            </div>
+
+                            <a href="#" class="card-btn">Involved: $200 000</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-2 card-2-active">
+                                <div class="card_header">
+                                        <h6>Token pre-sale <span>Discount 50 %</span></h6>
+                                        <p>Hardcap $700000</p>
+                                    </div>
+                                    <div class="info_block"><span class="cal-icon calendare-icon"></span>  Start:  <i class="braun-color"> 10.04.18 / 12:00 UTC</i></div>
+        
+                                    <div class="info_block"><span class="cal-icon coins-icon"></span>
+                                        <p>
+                                                Pre-sale token: <i class="braun-color">ARCH</i> <br>
+                                                Price for at pre-sale: <i class="braun-color">$0.001</i></p>
+                                    </div>
+                                    <div class="info_block"><span class="cal-icon hand-icon"></span>
+                                        <p>Number of tokens at private
+                                        pre-sale: <i class="braun-color">700 000 000</i></p>  
+                                    </div>
+                                    <div class="info_block"><span class="cal-icon number-icon"></span><p>
+                                            Min contribution: <i class="braun-color">30$</i> <br>
+                                            Accepted pay-ts:<i class="braun-color"> ETH,BTC,BCH</i></p>
+                                    </div>
+        
+                                    <a href="#" class="card-btn btn-active">Buy tokens</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card card-3 card-2">
+                                <div class="card_header">
+                                        <h6>ICO <span class="title">Discount 25 %</span> day 1-2</h6>
+                                        <p>Hardcap $20M</p>
+                                    </div>
+                                    <div class="info_block"><span class="cal-icon calendare-icon"></span> Start: <i class="braun-color">15.05.18 / 12:00 UTC</i></div>
+        
+                                    <div class="info_block"><span class="cal-icon coins-icon"></span>
+                                        <p>
+                                                ICO token: <i class="braun-color"> ARCH</i> <br>
+                                                Cost of token ICO:  <i class="braun-color">$0.002</i></p>
+                                    </div>
+                                    <div class="info_block"><span class="cal-icon hand-icon"></span>
+                                        <p>Number of tokens ICO:<br>
+                                         <i class="braun-color">12 500 000 000</i></p>  
+                                    </div>
+                                    <div class="info_block"><span class="cal-icon number-icon"></span><p>
+                                        Min contribution: <i class="braun-color">30$</i> <br>
+                                        Accepted pay-ts: <i class="braun-color">ETH,BTC,BCH</i></p>
+                                    </div>
+        
+                                    <a href="#" class="card-btn">Inform me in advance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </section>
+        <section class="s_advantages">
+                <h6> Advantages of the system</h6>
+            <div class="container">
+                    <div class="s_advantages-content">
+            <div class="row justify-content-center">
+                
+                    <div class="col-md-3">
+                    <div class="adv_card">
+                        <img src="./img/advant-icon/icon-of-multification.png" alt="">
+                        <p class="adv_card_title">Multifunction</p>
+                        <p class="adv_card_content" >In the system in addition to the usual storage there is a possibility to put the sites to open online stores, streaming sites, backend applications.</p>
+                    </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img src="./img/advant-icon/icon-of-decentralized.png" alt="">
+                                <p class="adv_card_title">Decentralized</p>
+                                <p class="adv_card_content" >No centralized storage locations, encrypting all the data distributed around the world.</p>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img src="./img/advant-icon/icon-of-ability.png" alt="">
+                                <p class="adv_card_title">The ability to search files</p>
+                                <p class="adv_card_content" >All files will be indexed using the chain blocks and are distributed in the network ArchiCoin</p>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img src="./img/advant-icon/icon-of-storing-structure.png" alt="">
+                                <p class="adv_card_title">Storing structured data</p>
+                                <p class="adv_card_content" >The advantage of the system 
+                                        is the ability to store both unstructured
+                                        and structured data.</p>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img  src="./img/advant-icon/icon-of-optimization.png" alt="">
+                                <p class="adv_card_title fix-mg">Optimization</p>
+                                <p class="adv_card_content" >System ArchiCoin allows you to execute queries to search, edit, store and delete at high speed. Data download will occur in parallel with different devices in order to achieve the fastest possible data access</p>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img src="./img/advant-icon/icon-of-seling-space.png" alt="">
+                                <p class="adv_card_title">Selling space</p>
+                                <p class="adv_card_content" >The system has a low entry threshold, giving the opportunity to provide free space to receive the payment as a data storage and mining.</p>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img src="./img/advant-icon/icon-of-low-cost.png" alt="">
+                                <p class="adv_card_title">Low cost storage</p>
+                                <p class="adv_card_content" >Over 1 TB of information in the network ArchiCoin will be at least 10 times cheaper than on services such as Amazon S3 or 
+                                        Microsoft  Azure</p>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="adv_card">
+                                <img src="./img/advant-icon/icon-of-lock.png" alt="">
+                                <p class="adv_card_title">Providing access</p>
+                                <p class="adv_card_content" >In addition to storing data, ArchiCoin offers secure access to user information without interaction with a third party. All this is possible with 
+                                        smart contracts</p>
+                            </div>
+                    </div>
+                <!-- /.col-md-3 -->
+                
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.s_advantages-content -->
+        </div>
+        <!-- /.container -->
+        </section>
+        <section class="s_competitors">
+                <h6>Competitors</h6>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <table class="table">
+                        <tr class="table-1-title"> 
+                            <td>Decentralized competitors</td>
+                        </tr>
+                        <tr>
+                            <td>Criterion for comparisons</td>
+                            <td><img src="./img/icon/table2-icon/archicoin-logo.png" alt=""></td>
+                            <td><img src="./img/icon/table1-icon/storj-io-logo.png" alt=""></td>
+                            <td><img src="./img/icon/table1-icon/filecoin-logo.png" alt=""></td>
+                            <td><img src="./img/icon/table1-icon/sia-logo.png" alt=""></td>
+                            
+                        </tr>
+                        <tr>
+                                <td>Decentralization</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Storing structure data</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>A general search of data in the system</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Implementation of api for buisnes</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Payment cryptocurrency</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Integration with internal system of the company</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Compatible with any devices</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>The independence and autonomy of the nodes</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Edit the structured data</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Portable mining Long-term mining</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                       
+                    </table>
+                    <table class="table table-2">
+                        <tr class="table-1-title"> 
+                            <td>Decentralized competitors</td>
+                        </tr>
+                        <tr>
+                            <td>Criterion for comparisons</td>
+                            <td><img src="./img/icon/table2-icon/archicoin-logo.png" alt=""></td>
+                            <td><img src="./img/icon/table1-icon/storj-io-logo.png" alt=""></td>
+                            <td><img src="./img/icon/table1-icon/filecoin-logo.png" alt=""></td>
+                            <td><img src="./img/icon/table1-icon/sia-logo.png" alt=""></td>
+                            
+                        </tr>
+                        <tr>
+                                <td>Decentralization</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Storing structure data</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>A general search of data in the system</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Implementation of api for buisnes</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Payment cryptocurrency</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Integration with internal system of the company</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Compatible with any devices</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>The independence and autonomy of the nodes</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Edit the structured data</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                        <tr>
+                                <td>Portable mining Long-term mining</td>
+                                <td><img src="./img/icon/table2-icon/v.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                <td><img src="./img/icon/table2-icon/x.png" alt=""></td>
+                                
+                        </tr>
+                       
+                    </table>
+                </div>
+            </div>
+
+        </section>
+        <section class="s_roadmap">
+            <h6>Roadmap</h6>
+            <div class="container">
+                <div class="row">
+                    <div class="roadmap d-flex justify-content-center">
+                        <img src="./img/roadmap-image.png"  alt="">
+                        <p class="roadmap-info--1">
+                           <span> September - December 2017 </span>
+                            • Start of the developments <br>
+                            • Preparation for closed pre-sale <br>
+                            • Announcement of closed pre-sale
+                        </p>
+                        <p class="roadmap-info--2"> 
+                               <span>December 2017 - February 2018</span>
+                                • Carrying out Closed pre-sale <br>
+                                • Preparation for Pre-ICO <br>
+                                • Announcement of Pre-ICO
+                        </p>
+                        <p class="roadmap-info--3"> 
+                               <span> April 2018 </span>
+                                • Carrying out Pre-ICO
+                        </p>
+                        <p class="roadmap-info--4">
+                               <span> April - May 2018 </span>
+                                • Preparation for ICO• The development of a demo version and its demonstration
+                        </p>
+                        <p class="roadmap-info--5">
+                               <span> May - Jule 2018 </span>
+                                • Carrying out ICO
+                        </p>
+                        <p class="roadmap-info--6">
+                               <span> June 2018 </span>
+                                • The development of a stable product version
+                        </p>
+                        <p class="roadmap-info--7">
+                               <span> Autumn 2018 </span>
+                                • The Demonstration of a stable version
+                        </p>
+                        <p class="roadmap-info--8">
+                               <span> Winter 2018 </span>
+                                • Transition into Open-Source mode
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/noframework.waypoints.js"></script>
+    <script src="./js/animate-css.js"></script>
+    <script src="./js/jquery.time-to.js"></script>
+    <script>
+
+    $(document).ready(function(){
+        $('#countdown').timeTo({
+            seconds : 10000000,
+            displayDays: 2,
+            theme: "black",
+            displayCaptions: true,
+            fontFamily : 'sans-serif',
+            fontSize: 40,
+            captionSize: 14,
+            lang: $('.band').attr('data-lang')
+        });
+        // $('#countdown').timeTo('start');
+        // $('#countdown').timeTo();
+      
+
+
+    	$(".toggle_mnu").click(function() {
+            $(".sandwich").toggleClass("active");
+            
+        });
+        
+        
+
+        $(".toggle_mnu").click(function() {
+		if ($(".nav_mnu").is(":visible")) {
+            $('body').removeClass('ov-h');
+			$(".nav_mnu").fadeOut(600);
+            $(".nav_mnu_list li").removeClass("fadeInUp animated");
+            $(".toggle_mnu--nav").removeClass("animated fadeInUp ");
+		} else {
+            $('body').addClass('ov-h');
+			$(".nav_mnu").fadeIn(600);
+            $(".nav_mnu_list li").addClass("animated fadeInUp ");
+            $(".toggle_mnu--nav").addClass("animated fadeInUp ");
+            
+            };
+        });
+        
+        let dataCount = $('.band').attr('data-count');
+
+        if( dataCount < 100){
+        $('.band_line').css({
+            'width' : dataCount + '%'
+        })
+    }
+    else{
+        dataCount = 100;
+        $('.band_line').css({
+            'width' : dataCount + '%'
+        })
+    }
+    });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Exo-2";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/Exo2.0-Regular.otf"); }
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/Exo2.0-Bold.otf"); }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvbnRzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxxQkFBb0I7RUFDcEIsbUJBQWtCO0VBQ2xCLG9CQUFtQjtFQUNuQix1Q0FBc0MsRUFBQTs7QUFFeEM7RUFDRSx1QkFBc0I7RUFDdEIsbUJBQWtCO0VBQ2xCLGlCQUFnQjtFQUNoQixvQ0FBbUMsRUFBQSIsImZpbGUiOiJmb250cy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkV4by0yXCI7XHJcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgc3JjOiB1cmwoXCIuLi9mb250L0V4bzIuMC1SZWd1bGFyLm90ZlwiKTtcclxufVxyXG4gIEBmb250LWZhY2Uge1xyXG4gICAgZm9udC1mYW1pbHk6IFwiUmFsZXdheVwiO1xyXG4gICAgZm9udC1zdHlsZTogbm9ybWFsO1xyXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgIHNyYzogdXJsKFwiLi4vZm9udC9FeG8yLjAtQm9sZC5vdGZcIik7IFxyXG4gIH1cclxuICAiXX0= */
